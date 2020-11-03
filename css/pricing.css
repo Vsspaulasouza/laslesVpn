@@ -1,0 +1,179 @@
+.pricing{
+    margin-top: 8vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+}
+.pricing .pricing-title{
+    max-width: 383px;
+    width: 70%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 5.0rem;
+    color: #0B132A;
+    margin-bottom: 1vw;
+}
+
+.pricing .pricing-text{
+    max-width: 555px;
+    width: 70%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: #4F5665;
+    margin-bottom: 5vw;
+}
+
+.pricing .pricing-cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pricing .pricing-cards .card{
+    max-width: 330px;
+    width: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #dddddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.pricing .pricing-cards .card-middle{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.pricing .pricing-cards .card-highlight{
+    border: 2px solid #f53838;
+}
+
+.pricing .pricing-cards .card .card-logo{
+    margin-bottom: 2vw;
+    width: 144px;
+    height: 165px;
+}
+
+.pricing .pricing-cards .card .card-title{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    color: #0B132A;
+    margin-bottom: 1vw;
+}
+
+.pricing .pricing-cards .card .card-list{
+    min-height: 230px;
+    margin-bottom: 1vw;
+}
+
+.pricing .pricing-cards .card .card-list .list-item{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0.8vw;
+}
+
+.pricing .pricing-cards .card .card-list .list-item .item-logo{
+    margin-right: 0.6vw;
+    width: 24px;
+    height: 24px;
+}
+
+.pricing .pricing-cards .card .card-list .list-item .item-text{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 3.0rem;
+    color: #4F5665; 
+}
+
+.pricing .pricing-cards .card .card-price{
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    color: #4F5665;
+    margin-bottom: 1vw;
+}
+
+.pricing .pricing-cards .card .price-highlight{
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    color: #0b132a; 
+}
+
+.pricing .pricing-cards .card .card-button{
+    max-width: 177px;
+    width: 50%;
+    height: 45px;
+    display: block;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #F53838;
+    transition: 400ms;
+}
+
+.pricing .pricing-cards .card .card-button:hover{
+    background-color: #F53838;
+    color: #ffffff;
+}
+
+.pricing .pricing-cards .card .button-highlight{
+    background-color: #F53838;
+    color: #ffffff;
+    box-shadow: 0px 10px 30px 0px rgba(245,56,56,0.35);
+}
+
+.pricing .pricing-cards .card .button-highlight:hover{
+    background-color: #ffffff;
+    color: #F53838;
+}
+
+@media (max-width: 600px){
+    .pricing .pricing-cards .card .card-logo{
+        width: 100px;
+        height: 114px;
+    }
+    .pricing .pricing-cards .card .card-list .list-item .item-logo{
+        width: 18px;
+        height: 18px;
+    }
+    .pricing .pricing-cards .card .card-button{
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    .pricing .pricing-cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pricing .pricing-cards .card{
+        width: 70%;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        margin-bottom: 2vw;
+    }
+    .pricing .pricing-cards .card .card-list{
+        width: 60%;
+        min-height: 150px;
+    }
+}

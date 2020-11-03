@@ -1,0 +1,44 @@
+.location {
+    margin-top: 8vw;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f6f6f6;
+}
+.location .location-title{
+    max-width: 383px;
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 5.0rem;
+    color: #0B132A;
+    margin-bottom: 1vw;
+}
+
+.location .location-text{
+    max-width: 555px;
+    width: 80%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: #4F5665;
+    margin-bottom: 5vw;
+}
+
+.location .location-text .text-highligth{
+    font-weight: 500;
+}
+
+.location .location-map{
+    max-width: 1060px;
+    width: 95%;
+    margin-bottom: 2vw;
+}
+
+.location .location-companies{
+    max-width: 1135px;
+    width: 95%;
+}

@@ -1,0 +1,259 @@
+footer{
+    width: 100%;
+    margin-top: 8vw;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3vw;
+}
+
+.subscribe{
+    transform: translateY(-40%);
+    max-width: 1140px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+.subscribe .subscribe-content{
+    margin-left: 4vw;
+    max-width: 410px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subscribe .subscribe-content .subscribe-title{
+    max-width: 371px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    color: #0B132A;
+}
+
+.subscribe .subscribe-content .subscribe-text{
+    max-width: 371px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: #4F5665;
+}
+
+.subscribe .subscribe-button{
+    margin-right: 4vw;
+    margin-left: 1vw;
+    max-width: 250px;
+    width: 30%;
+    height: 60px;
+    background-color: #F53838;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #ffffff;
+    transition: 400ms;
+    border: 2px solid #F53838;
+    box-shadow: 0px 10px 30px 0px rgba(245,56,56,0.35);
+}
+
+.subscribe .subscribe-button:hover{
+    background-color: #f6f6f6;
+    color: #F53838;
+}
+
+.footer-container{
+    transform: translateY(-10%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .footer-lasles{
+    max-width: 340px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 4vw;
+}
+
+.footer-lasles .lasles-logo{
+    max-width: 149px;
+    width: 95%;
+    margin-bottom: 1vw;
+}
+
+.footer-lasles .lasles-text{
+    max-width: 340px;
+    width: 100%;
+    margin-bottom: 1vw;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: #4F5665;
+}
+
+.footer-lasles .lasles-text span{
+    font-weight: 500;
+}
+
+.footer-lasles .lasles-social{
+    display: flex;
+    max-width: 340px;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.footer-lasles .lasles-social li img{
+    width: 63px;
+    height: 63px;
+}
+
+.footer-lasles .lasles-copy{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: #AFB5C0;
+}
+
+.footer-lasles .lasles-copy span{
+    font-weight: 500;
+}
+
+.footer-container .lists{
+    margin-right: 4vw;
+    display: flex;
+    max-width: 470px;
+    width: 70%;
+    justify-content: flex-end;
+    margin-left: 1vw;
+}
+
+.footer-container .list{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container .list-left{
+    max-width: 74px;
+}
+
+.footer-container .list-middle{
+    max-width: 124px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+}
+
+.footer-container .list-rigth{
+    max-width: 121px;
+}
+
+.footer-container .list .list-title{
+    margin-bottom: 2vw;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    color: #0B132A;
+}
+
+.footer-container .list .list-item{
+    margin-bottom: 0.5vw;
+    list-style: none;
+}
+
+.footer-container .list .list-item a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.0rem;
+    color: #4F5665;
+}
+
+.footer-container .list .list-item a:hover{
+    color: #0B132A;
+}
+
+@media (max-width: 870px){
+    .subscribe .subscribe-button{
+        height: 50px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 768px){
+    .subscribe{
+        transform: translateY(0%);
+    }
+    .footer-container{
+        transform: translateY(0%);
+        margin-top: 2vw;
+    }
+    footer{
+        margin-top: 6vw;
+    }
+}
+
+@media (max-width: 700px){
+    .subscribe .subscribe-button{
+        height: 40px;
+        line-height: 40px;
+    }
+    .footer-lasles .lasles-social li img{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media (max-width: 500px){
+    .subscribe .subscribe-button{
+        height: 30px;
+        line-height: 30px;
+    }
+    .footer-lasles .lasles-social li img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width: 443px){
+    .subscribe{
+        width: 95%;
+    }
+}
+@media (max-width: 425px){
+    .footer-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .footer-container .footer-lasles{
+        width: 90%;
+        margin-left: 0;
+        align-items: center;
+    }
+    .footer-lasles .lasles-social li img{
+        width: 63px;
+        height: 63px;
+    }
+    .footer-container .lists{
+        margin: 10vw 0 10vw 0;
+        width: 90%;
+        justify-content: flex-end;
+    }
+}
+@media (max-width: 335px){
+    .subscribe .subscribe-button{
+        height: 40px;
+        line-height: 20px;
+    }
+}

@@ -32,7 +32,7 @@
 
 .testimonials .testimonials-cards{
     width: 90%;
-    display: flex;
+    display: flex !important;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -166,11 +166,14 @@
     transition: 400ms !important;
 }
 
+.owl-dots .owl-dot:focus,.owl-dot:active{
+    outline: none;
+}
+
 .owl-dots .active span{
     width: 45px !important;
     background-color: #F53838 !important;
 }
-
 
 
 @media (max-width: 900px){

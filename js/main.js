@@ -46,3 +46,17 @@ $('.owl-carousel').owlCarousel({
     }
 }
 })
+
+const INTERNAL_LINKS = document.querySelectorAll('.my-header-list a[href^="#"]');
+
+function scrollToSection(event){
+    event.preventDefault();
+    const HREF = event.currentTarget.getAttribute('href');
+    const SECTION = document.querySelector(HREF);
+    SECTION.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+}
+
+INTERNAL_LINKS.forEach((link) => link.addEventListener('click', scrollToSection));
